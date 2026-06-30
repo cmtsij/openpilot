@@ -115,7 +115,7 @@ class Soundd:
           self.pending_stop = False
           break
 
-    return ret * self.current_volume
+    return ret * self.current_volume * 0.1
 
   def callback(self, data_out: np.ndarray, frames: int, time, status) -> None:
     if status:
