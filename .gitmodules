@@ -19,5 +19,5 @@
 
 [submodule "opendbc"]
 	path = opendbc_repo
-	url = https://github.com/mvl-boston/opendbc
-	branch = sp-honda-dev-202608
+	url = https://github.com/cmtsij/opendbc
+	branch = fit4-sp-honda-dev-202608
